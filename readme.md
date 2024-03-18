@@ -11,6 +11,7 @@
 ## 💻 Projeto
 
 Um conjunto de testes unitários para as estruturas de dados utilizadas no módulo de compressão e descompressão de arquivos utilizando o algoritmo de Huffman.
+Implementa a biblioteca CUnit para realizar os testes.
 
 #### 🧭 Disponível inicialmente para Terminal
 
@@ -21,36 +22,6 @@ Um conjunto de testes unitários para as estruturas de dados utilizadas no módu
 | Backend |
 | ------- |
 | C       |
-
-<br />
-
-## 🧠 Princípios
-
-1.  Ser capaz de **compactar e descompactar** QUALQUER tipo de arquivo
-2.  Todos os Tipos Abstratos de Dados (TADs) devem ser **documentados**
-3.  Todas as estruturas de dados devem ser implementadas com `*void`
-4.  Toda as estruturas de dados utilizadas no projeto devem possuir **Casos de Testes Unitários**
-
-<br />
-
-## 🔧 Compilação e execução
-
-A fim de facilitar o processo de _compilação_ do código durante a fase de desenvolvimento e testes, tendo em visto o alto grau de modularização do projeto, o repositório faz uso de um arquivo `Makefile`, responsável por lidar com o gerenciamento de dependências nos arquivos `.c`.  
-Durante o desenvolvimento com o Visual Studio Code (VSCode), para que o processo de _build_ ocorra corretamente, [baixe a extensão](https://marketplace.visualstudio.com/items?itemName=ms-vscode.makefile-tools) disponibilizada pela Microsoft para esse tipo de arquivo.
-
-<br /
-
-#### Diferença entre arquivos `.c` e `.h`
-
-- .c: arquivo c (onde está a ação real, em geral)
-
-- .h: arquivo de cabeçalho (a ser incluído em uma diretiva #include do pré-processador). Contém coisas que normalmente são compartilhadas com outras partes do código, como protótipos de funções, declarações #define' e assim por diante.
-
-> [!NOTE]  
-> Caso queira saber mais sobre como a modularização e arquivos `Makefile` funcionam, visite estes links:
->
-> - [Programação modular em C - forcepush.tech](https://forcepush.tech/modular-programming-in-c)
-> - ["o que as extensões de arquivo c e h significam para c" - stackoverflow.com](https://stackoverflow.com/questions/1695224/what-do-c-and-h-file-extensions-mean-to-c)
 
 <br />
 
@@ -73,6 +44,20 @@ make tests
 > sudo apt-get update
 > sudo apt-get install libcunit1 libcunit1-dev
 > ```
+
+<br />
+
+#### Diferença entre arquivos `.c` e `.h`
+
+- .c: arquivo c (onde está a ação real, em geral)
+
+- .h: arquivo de cabeçalho (a ser incluído em uma diretiva #include do pré-processador). Contém coisas que normalmente são compartilhadas com outras partes do código, como protótipos de funções, declarações #define' e assim por diante.
+
+> [!NOTE]  
+> Caso queira saber mais sobre como a modularização e arquivos `Makefile` funcionam, visite estes links:
+>
+> - [Programação modular em C - forcepush.tech](https://forcepush.tech/modular-programming-in-c)
+> - ["o que as extensões de arquivo c e h significam para c" - stackoverflow.com](https://stackoverflow.com/questions/1695224/what-do-c-and-h-file-extensions-mean-to-c)
 
 <br />
 
