@@ -10,7 +10,7 @@
 
 ## 💻 Projeto
 
-Um compactador e descompactador de arquivos com base no Algoritmo de Huffman, desenvolvido como AV2 da disciplina de Estrutura de Dados por discentes do curso de Ciência da Computação.
+Um conjunto de testes unitários para as estruturas de dados utilizadas no módulo de compressão e descompressão de arquivos utilizando o algoritmo de Huffman.
 
 #### 🧭 Disponível inicialmente para Terminal
 
