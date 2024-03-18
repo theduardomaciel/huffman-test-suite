@@ -1,5 +1,5 @@
 <h1 align="center">
-    File Compressor - Huffman
+    Huffman - Test Suite
 </h1>
 
 <picture>
@@ -21,7 +21,7 @@ Implementa a biblioteca CUnit para realizar os testes.
 
 | Backend |
 | ------- |
-| C       |
+| CUnit       |
 
 <br />
 
