@@ -38,7 +38,7 @@ $(BUILD_DIR):
 	$(MKDIR_P) $(dir $(OBJS))
 
 # Alvo para executar o programa após a compilação
-run: all
+tests: all
 	./$(TARGET) $(INPUT)
 
 # Limpamos arquivos de compilação e o executável
