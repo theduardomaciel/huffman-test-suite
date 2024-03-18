@@ -1,0 +1,14 @@
+{
+    "files.associations": {
+        ".env.*": "dotenv",
+        "*.css": "css",
+        ".env.example": "properties",
+        "cunit.h": "c",
+        "priority_queue_test.h": "c",
+        "priority_queue.h": "c",
+        "huffman_tree_test.h": "c"
+    },
+    "cSpell.words": [
+        "huffman"
+    ]
+}
